@@ -47,7 +47,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             className="arrow-btn"
-            testid="leftArrow"
+            data-testid="leftArrow"
             onClick={this.onClickLeftArrow}
           >
             <img
@@ -60,7 +60,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             className="arrow-btn"
-            testid="rightArrow"
+            data-testid="rightArrow"
             onClick={this.onClickRightArrow}
           >
             <img
